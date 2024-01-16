@@ -131,7 +131,7 @@
     {
       "group": "Billing and invoicing",
       "pages": [
-        "docs/invoices",
+        "docs/invoices-overview",
         "docs/invoice-groups",
         "docs/invoice-templates"
       ]

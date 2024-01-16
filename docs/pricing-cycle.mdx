@@ -14,7 +14,7 @@ Pricing cycle is the first step to configuring your price plan. You can define t
 
 * **Billing cycle** - You can choose whether you want the default billing cycle for the plan should be Weekly, Monthly, Quarterly, Half Yearly or Annual.
 
-<Tip>We also provide 'Recurrence Interval' at a rate card level for you to manage different billing cycles for different line items within a single price plan. [Learn more](/docs/rate-cards#recurrence-interval)</Tip>
+<Tip>We also provide 'Recurrence Interval' at a rate card level for you to manage different billing cycles for different line items within a single price plan. [Learn more](/docs/rate-cards#rate-card-common-entities)</Tip>
 
 
 * **Anniversary cycle flag** - This configuration is used to define the start date of your billing cycle. When this toggle is off, you can choose what should be the start date of your billing cycle for customers who are associated with this plan. Example: If you have a standard billing cycle from 1st of every month to the end of the month, you can choose the start date as 1 here. If the toggle is switched on, then the cycle start is automatically taken as the plan association date (equivalent to customer sign-up/onboarding date). For a customer who is on a plan with Anniversary cycle, then if they have been associated a quarterly plan on 10th March, their cycle is taken as 10th March to 9th May, 10th May to 9th July and so on.
@@ -25,10 +25,14 @@ Pricing cycle is the first step to configuring your price plan. You can define t
 
 <Note>Togai is an automated billing and invoicing platform and we suggest having a grace period of 1-2 days so as to provide time for verification and data corrections if required. Customer invoicing should be 100% accurate and cannot have any discrepancies.</Note>
 
-<Tip>Let's take an example - Billing cycle is quarterly, anniversary flag is off, cycle start date is 2nd month of the quarter, 3rd day of the month with a grace period of 2 days. In this case</Tip>
+<Tip>Let's take an example - Billing cycle is quarterly, anniversary flag is off, cycle start date is 2nd month of the quarter, 3rd day of the month with a grace period of 2 days. Let's say the customer has signed up on 15th Jan. In this case, the customer's 1st billing cycle would be between 15th Jan to 2nd Feb and the invoice will become 'DUE' on 5th Feb. The customer's 2nd billing cycle will be from 3rd Feb to 2nd April with the invoice becoming 'DUE' on 5th April.</Tip>
 
+You can view the different Invoice statuses [in this section](/docs/invoices-overview).
 
-* **Deferred revenue computation** - 
+* **Deferred revenue computation** - This configuration allows you the flexibility to change your price plan during an Ongoing billing cycle and apply changes at any time from the start of the ongoing cycle. Ongoing billing cycles are the ones where the Invoices are not yet due and are in an 'Ongoing' state. By enabling this configuration, you can override a customer's price plan and make any changes and apply them at anypoint from the start of the current ongoing cycle.
+
+<Warning>Enabling deferred revenue computation means that you will not be able to view daily revenue metrics for customers associated with those plans during the ongoing cycle. You can still see the cycle till date revenue in real-time by viewing the customer's ongoing invoice. You will also be able to see the daily revenue metrics once the invoice becomes DUE.</Warning>
+
 
 <Frame caption="Pricing cycle screen">
   <img src="/docs/images/pricing-cycle.png" />
