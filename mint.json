@@ -108,9 +108,7 @@
             "docs/pricing-cycle", 
             "docs/rate-cards", 
             "docs/pricing-rules",
-            "docs/price-plan-lifecycle-version",
-            "docs/pp-old-docs"
-
+            "docs/price-plan-lifecycle-version"           
           ]
         }
         
