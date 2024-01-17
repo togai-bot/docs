@@ -121,20 +121,54 @@
         "docs/customers",
         "docs/price-plan-overrides",
         "docs/price-plan-schedule",
-        "docs/credits",
-        "docs/wallet",
-        "docs/purchases",
-        "docs/proposal"
+        {
+          "group": "Quote to cash",
+          "pages": [
+            "docs/proposals", 
+            "docs/purchases"
+          ]
+        }
       ]
     }, 
     {
-      "group": "Billing and invoicing",
+      "group": "Billing and payments",
       "pages": [
-        "docs/invoices-overview",
-        "docs/invoice-groups",
-        "docs/invoice-templates"
+        {
+          "group": "Invoicing",
+          "pages": [
+            "docs/invoices-overview", 
+            "docs/invoice-groups", 
+            "docs/invoice-templates", 
+            "docs/credits"
+          ]
+        },
+
+        {
+          "group": "Payments",
+          "pages": [
+            "docs/payments-overview", 
+            "docs/wallet"            
+          ]
+        }
+        
       ]
     }, 
+    {
+      "group": "Insights and alerts",
+      "pages": [
+            "docs/insights-overview", 
+            "docs/revenue-simulator", 
+            "docs/alerts"        
+      ]
+    }, 
+        {
+      "group": "Configuration",
+      "pages": [
+        "docs/admin-center",
+        "docs/settings",
+        "docs/quotas-and-limits"
+      ]
+    },
     {
       "group": "Integrations",
       "pages": [
@@ -146,14 +180,6 @@
         "docs/integrations/zuora",
         "docs/integrations/razorpay",
         "docs/integrations/first-promoter"
-      ]
-    },
-    {
-      "group": "Configuration",
-      "pages": [
-        "docs/admin-center",
-        "docs/settings",
-        "docs/quotas-and-limits"
       ]
     },
     {
