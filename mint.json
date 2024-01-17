@@ -81,7 +81,7 @@
   "navigation": [
     {
       "group": "Overview",
-      "pages": ["docs/templates","docs/introduction", "docs/how-togai-works"
+      "pages": ["docs/introduction", "docs/how-togai-works"
       ]
     },
     {
