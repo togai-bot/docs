@@ -29,9 +29,13 @@ Pricing cycle is the first step to configuring your price plan. You can define t
 
 You can view the different Invoice statuses [in this section](/docs/invoices-overview).
 
-* **Deferred revenue computation** - This configuration allows you the flexibility to change your price plan during an Ongoing billing cycle and apply changes at any time from the start of the ongoing cycle. Ongoing billing cycles are the ones where the Invoices are not yet due and are in an 'Ongoing' state. By enabling this configuration, you can override a customer's price plan and make any changes and apply them at anypoint from the start of the current ongoing cycle.
+* **Deferred revenue computation** - This configuration allows you the flexibility to change your price plan during an Ongoing billing cycle and apply changes from the start of the ongoing cycle and re-rate the customer's usage. Ongoing billing cycles are the ones where the Invoices are not yet due and are in an 'Ongoing' state. By enabling this configuration, you can override a customer's price plan and make any changes and apply them from the start of the current ongoing cycle.
+
+<Note>You cannot have 'In advance' option in any rate card when the Deferred revenue computation is configured for a price plan.</Note>
 
 <Warning>Enabling deferred revenue computation means that you will not be able to view daily revenue metrics for customers associated with those plans during the ongoing cycle. You can still see the cycle till date revenue in real-time by viewing the customer's ongoing invoice. You will also be able to see the daily revenue metrics once the invoice becomes DUE.</Warning>
+
+
 
 
 <Frame caption="Pricing cycle screen">

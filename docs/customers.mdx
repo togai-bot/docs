@@ -41,6 +41,19 @@ You can generate standalone invoice for an account or group multiple accounts an
 * **Reseller/partner relationship** - In many instances of B2B software offerings, you have a channel partnership or resellers who have a distribution setup and offer your products to end customers. This can also be modelled in Togai as a parent-child relationship where the reseller/partner can be created as a customer and the end customer of the reseller is modelled as an account in Togai.
 * **Complex org structure** - Any combination of the above can be setup in a single instance of Togai without complexities and using simple to use configurations via our dashboard.
 
+
+## Price plan association
+When customers purchase or subscribe to your product, you can model that in Togai by associating the corresponding price plan to the respective account. When making an association, you can configure the following details - 
+
+**Effective from date** - This is the start date of the subscription/contract and is applicable for recurring plans. <br />
+
+**Effective Until** - This is the end date of the subscription/contract and is applicable for recurring plans. The plan will be detached on this date and customers will not be billed post this date. Usage tracking and metering is independent of this. <br />
+
+<Tip>For customers who have subscribed to your product without a contract end date, you can choose the 'Until Forever' option while configuring the Effective Until field.</Tip>
+
+
+**Cycle and rate card overrides** - [Learn more](/docs/price-plan-overrides)
+
 ## Lifecycle management
 
 Once created, customers and accounts cannot be deleted in Togai currently. We have an archive option which is allowed for customers and accounts where there are no price plans associated or Invoices in an Ongoing state for the individual account or any account under the customer.
