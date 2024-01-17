@@ -124,6 +124,7 @@
         {
           "group": "Quote to cash",
           "pages": [
+            "docs/qtc-overview", 
             "docs/proposals", 
             "docs/purchases"
           ]
@@ -179,7 +180,8 @@
         "docs/integrations/zohobooks",
         "docs/integrations/zuora",
         "docs/integrations/razorpay",
-        "docs/integrations/first-promoter"
+        "docs/integrations/first-promoter",
+        "docs/integrations/docusign"
       ]
     },
     {
