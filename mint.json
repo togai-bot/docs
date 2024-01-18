@@ -194,29 +194,21 @@
           "group": "Billing & invoicing",
           "pages": [
             "docs/integrations/billing-and-invoicing/zuora",
-            "docs/integrations/billing-and-invoicing/aws-marketplace",
-            "docs/integrations/billing-and-invoicing/azure-marketplace",
             "docs/integrations/billing-and-invoicing/chargebee"
           ]
         },
         {
           "group": "Accounting & ERP",
           "pages": [
-            "docs/integrations/accounting-and-erp/netsuite",
-            "docs/integrations/accounting-and-erp/ms-dynamics",
-            "docs/integrations/accounting-and-erp/sage",
-            "docs/integrations/accounting-and-erp/xero",
             "docs/integrations/accounting-and-erp/quickbooks",
             "docs/integrations/accounting-and-erp/zohobooks",
-            "docs/integrations/accounting-and-erp/tally",
-            "docs/integrations/accounting-and-erp/odoo"
+            "docs/integrations/accounting-and-erp/tally"
           ]
         },
         {
           "group": "CRM & CPQ",
           "pages": [
             "docs/integrations/crm-and-cpq/salesforce",
-            "docs/integrations/crm-and-cpq/hubspot",
             "docs/integrations/crm-and-cpq/docusign"
           ]
         },
