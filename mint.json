@@ -61,10 +61,6 @@
       "url": "changelog"
     },
     {
-     "name": "Use cases",
-     "url": "use-cases" 
-    },
-    {
       "name": "Templates",
      "url": "templates" 
     }
@@ -487,12 +483,6 @@
         "templates/heygen",
         "templates/anthropic",
         "templates/personal-ai"
-      ]
-    },
-    {
-      "group": "Use cases",
-      "pages": [
-        "use-cases/pay-as-you-go"
       ]
     }
   ],
