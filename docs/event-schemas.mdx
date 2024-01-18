@@ -10,7 +10,7 @@ Togai's metering system is based on an event driven architecture. You can send r
 
 Event schemas are used to define the payload structure for the raw usage data you are looking to meter. Event schemas are required when you are looking to use Togai as the primary system to capture your raw usage event data or capture aggregated data periodically before transforming them within Togai's metering layer.
 
-In Togai, defining an event schema has 3 parts - 
+In Togai, defining an event schema has 3 configurable parts - 
 
 1. **Attributes** - these are numerical values for the usage you are looking to meter. Examples are GB minute data for an heartbeat event, transaction amount for a fintech event, distance for a logistics tracking event. You can send individual event information or aggregated data here depending on your requirements and data model. You can define an attribute name and the unit of measurement for the attribute.
 

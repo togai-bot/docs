@@ -134,25 +134,13 @@
     {
       "group": "Billing and payments",
       "pages": [
-        {
-          "group": "Invoicing",
-          "pages": [
             "docs/invoices-overview", 
             "docs/invoice-groups", 
             "docs/invoice-templates", 
-            "docs/credits"
+            "docs/credits",
+            "docs/payments-and-wallet"
           ]
-        },
-
-        {
-          "group": "Payments",
-          "pages": [
-            "docs/payments-overview", 
-            "docs/wallet"            
-          ]
-        }
         
-      ]
     }, 
     {
       "group": "Insights and alerts",
@@ -173,15 +161,69 @@
     {
       "group": "Integrations",
       "pages": [
-        "docs/integrations/integrations-concepts",
         "docs/integrations/overview",
-        "docs/integrations/stripe",
-        "docs/integrations/chargebee",
-        "docs/integrations/zohobooks",
-        "docs/integrations/zuora",
-        "docs/integrations/razorpay",
-        "docs/integrations/first-promoter",
-        "docs/integrations/docusign"
+        "docs/integrations/supported-integrations",
+        {
+          "group": "Payments",
+          "pages": [
+            "docs/integrations/stripe", 
+            "docs/integrations/adyen", 
+            "docs/integrations/paystack",
+            "docs/integrations/razorpay"
+          ]
+        },
+        {
+          "group": "Data sources",
+          "pages": [
+            "docs/integrations/s3", 
+            "docs/integrations/jdbc-sql", 
+            "docs/integrations/prometheus",
+            "docs/integrations/victoria-metrics"
+          ]
+        },
+        {
+          "group": "Billing & invoicing",
+          "pages": [
+            "docs/integrations/zuora", 
+            "docs/integrations/aws-marketplace", 
+            "docs/integrations/azure-marketplace",
+            "docs/integrations/chargebee"
+          ]
+        },
+        {
+          "group": "Accounting & ERP",
+          "pages": [
+            "docs/integrations/netsuite", 
+            "docs/integrations/ms-dynamics", 
+            "docs/integrations/sage",
+            "docs/integrations/xero",
+            "docs/integrations/quickbooks",
+            "docs/integrations/zoho-books",
+            "docs/integrations/tally",
+            "docs/integrations/odoo"            
+          ]
+        },
+        {
+          "group": "CRM & CPQ",
+          "pages": [
+            "docs/integrations/salesforce", 
+            "docs/integrations/hubspot", 
+            "docs/integrations/docusign" 
+          ]
+        },
+        {
+          "group": "Communications",
+          "pages": [
+            "docs/integrations/slack", 
+            "docs/integrations/ses" 
+           ]
+        },
+        {
+          "group": "Marketing",
+          "pages": [
+            "docs/integrations/first-promoter"             
+          ]
+        }
       ]
     },
     {
