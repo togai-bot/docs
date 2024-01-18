@@ -16,6 +16,10 @@ The integration between Paystack and Togai requires only a one-time setup. Follo
 ### Paystack Secret Key
 ![](/docs/integrations/images/paystack-secret-key.png)
 
+* Go to your Paystack dashboard and click on `Settings` from the left navigation bar
+* Click on `API Keys & Webhooks` from the sub-navigation bar
+* Copy your `Secret Key` and paste it into the appropriate field in Togai 
+* For more information on how to get your Paystack Secret Key, please refer to the [Paystack documentation](https://support.paystack.com/hc/en-us/articles/360011508199-How-do-I-generate-new-API-keys-#:~:text=On%20your%20Dashboard%2C%20go%20to,'Generate%20new%20secret%20key'.)
 
 ## Flows
 Here are the out-of-the-box flows that you can use: 
@@ -36,3 +40,7 @@ Here are the out-of-the-box flows that you can use:
 
 * Togai receives a payment request success event from Paystack.
 * Togai fetches the payment request details from Paystack and marks the corresponding invoice as paid in Togai.
+* To enable this flow, you need to configure a webhook in Paystack.
+    * Go to your Paystack dashboard and click on `Settings` from the left navigation bar
+    * Click on `API Keys & Webhooks` from the sub-navigation bar
+    * Click on `Webhook URL` and paste the webhook URL from Togai obtained when enabling the flow
