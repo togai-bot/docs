@@ -1,18 +1,18 @@
 ---
-title: "Simple Email Service"
+title: "SMTP"
 ---
 
 This API guide will walk you through the steps to set up the integration, configure apps and flows, and enable automation for your business processes.
 
-The integration between SES and Togai requires only a one-time setup. Follow the steps below:
+The integration between SMTP and Togai requires only a one-time setup. Follow the steps below:
 
 ###  Installation of App Instances  
 [](#installation-of-app-instances)  
    * Navigate to the Integrations section from the left navigation bar in Togai  
    * Click on `Apps` to access the list of apps with tight integration support  
-   * Locate and select `SES` from the available apps  
+   * Locate and select `SMTP` from the available apps  
    * Click on the `+Add connection` button  
-   * Provide a name for the connection and paste your `SES host` along with credestials for your server into the appropriate field
+   * Provide a name for the connection and paste your `SMTP host` along with credestials for your server into the appropriate field
 
 **_Repeat the same process for Togai, treating it as a separate App within the integration._**
 
@@ -20,7 +20,7 @@ The integration between SES and Togai requires only a one-time setup. Follow the
 **Note:** Togai is considered an app in our integration so it is easy for you to configure different keys for different flows. This way you can have specific permissions configured for a specific key, making it more secure. To create a secret key for Togai, go to the Admin Center on the left nav bar. Click on the API tokens tab. Then click on the ‘\`Generate new token\`’ button.
 ###  Triggers and Actions
 [](#triggers-and-actions)  
-There is 1 Action available for SES currently. The way it works is,
+There is 1 Action available for SMTP currently. The way it works is,
 
 If `{trigger}`, then do `{Action}`
 
@@ -28,9 +28,9 @@ You can pick and choose the trigger and action that you want from the lengthy li
 
 You can use these as building blocks to build your own flows.
 
-An example flow would be: On creation of an invoice in Togai, send mail via SES. 
+An example flow would be: On creation of an invoice in Togai, send mail via SMTP. 
 
-![](/docs/integrations/images/ses-actions.png) 
+![](/docs/integrations/images/smtp-actions.png) 
 ###  Flows and Automation
 * To enable flows, access the **`Flows`** section within Integrations
 * Select the desired flow from the available options or create a new flow to meet your requirements
@@ -38,7 +38,7 @@ An example flow would be: On creation of an invoice in Togai, send mail via SES.
 ![](/docs/integrations/images/d3f89f5-image.png) 
 * Enter the flow name and description
 * Select the flow type from the dropdown  
-**Inbound Flow** \- based on third party events(eg: SES), actions are triggered in Togai  
+**Inbound Flow** \- based on third party events(eg: SMTP), actions are triggered in Togai  
 **Outbound Flow** \- based on events occurring in Togai, changes are made to the connected third party app
 * Define triggers by choosing the source application from where the flow starts
 * Select a predefined trigger from the dropdown list
@@ -46,12 +46,14 @@ An example flow would be: On creation of an invoice in Togai, send mail via SES.
 * Select a predefined action from the dropdown list. You can add multiple actions.
 * Lastly, preview the flow and save changes
 * Else, choose an existing flow and select **`+Add Connection`**
-* Configure the triggers and actions by specifying the app instance (SES or Togai) associated with each step.
+* Configure the triggers and actions by specifying the app instance (SMTP or Togai) associated with each step.
+
+Now, when a new customer is added in Togai, it is synced in SMTP as well. To refer to customers in SMTP or Togai, you can obtain the customer ID and account ID. In Togai, go to Customers, select an account, and find the customer ID and account ID under the Settings tab. Use these IDs to reference the customer in SMTP, or vice versa.
 
 ###  Available Flows
 ![](/docs/integrations/images/smtp-flow.png) 
 
-Here is the flow that you can use: 
+Here are the out-of-the-box flows that you can use: 
 
 **1\. Send Mail to customer on Invoice or Order Due**
 
