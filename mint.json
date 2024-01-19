@@ -196,7 +196,6 @@
         {
           "group": "Billing & invoicing",
           "pages": [
-            "docs/integrations/billing-and-invoicing/aws-marketplace",
             "docs/integrations/billing-and-invoicing/chargebee",
             "docs/integrations/billing-and-invoicing/zuora"
           ]
