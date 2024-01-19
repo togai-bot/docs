@@ -202,7 +202,11 @@
           "pages": [
             "docs/integrations/accounting-and-erp/quickbooks",
             "docs/integrations/accounting-and-erp/zohobooks",
-            "docs/integrations/accounting-and-erp/tally"
+            "docs/integrations/accounting-and-erp/netsuite",
+            "docs/integrations/accounting-and-erp/ms-dynamics",
+            "docs/integrations/accounting-and-erp/sage",
+            "docs/integrations/accounting-and-erp/xero",
+            "docs/integrations/accounting-and-erp/odoo"
           ]
         },
         {
