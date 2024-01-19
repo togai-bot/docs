@@ -184,6 +184,7 @@
         {
           "group": "Data sources",
           "pages": [
+            "docs/integrations/data-sources/aws-redshift",
             "docs/integrations/data-sources/jdbc-overview",
             "docs/integrations/data-sources/postgres",
             "docs/integrations/data-sources/prometheus",
