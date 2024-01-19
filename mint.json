@@ -175,52 +175,56 @@
         {
           "group": "Payments",
           "pages": [
-            "docs/integrations/payments/stripe",
             "docs/integrations/payments/adyen",
             "docs/integrations/payments/paystack",
-            "docs/integrations/payments/razorpay"
+            "docs/integrations/payments/razorpay",
+            "docs/integrations/payments/stripe"
           ]
         },
         {
           "group": "Data sources",
           "pages": [
-            "docs/integrations/data-sources/s3",
+            "docs/integrations/data-sources/jdbc-overview",
+            "docs/integrations/data-sources/postgres",
             "docs/integrations/data-sources/prometheus",
-            "docs/integrations/data-sources/victoria-metrics",
-            "docs/integrations/data-sources/sql-server"
+            "docs/integrations/data-sources/s3",
+            "docs/integrations/data-sources/snowflake",
+            "docs/integrations/data-sources/victoria-metrics"
           ]
         },
         {
           "group": "Billing & invoicing",
           "pages": [
-            "docs/integrations/billing-and-invoicing/zuora",
-            "docs/integrations/billing-and-invoicing/chargebee"
+            "docs/integrations/billing-and-invoicing/aws-marketplace",
+            "docs/integrations/billing-and-invoicing/chargebee",
+            "docs/integrations/billing-and-invoicing/zuora"
           ]
         },
         {
           "group": "Accounting & ERP",
           "pages": [
-            "docs/integrations/accounting-and-erp/quickbooks",
-            "docs/integrations/accounting-and-erp/zohobooks",
-            "docs/integrations/accounting-and-erp/netsuite",
             "docs/integrations/accounting-and-erp/ms-dynamics",
+            "docs/integrations/accounting-and-erp/netsuite",
+            "docs/integrations/accounting-and-erp/odoo",
+            "docs/integrations/accounting-and-erp/quickbooks",
             "docs/integrations/accounting-and-erp/sage",
             "docs/integrations/accounting-and-erp/xero",
-            "docs/integrations/accounting-and-erp/odoo"
+            "docs/integrations/accounting-and-erp/zohobooks"
           ]
         },
         {
           "group": "CRM & CPQ",
           "pages": [
-            "docs/integrations/crm-and-cpq/salesforce",
-            "docs/integrations/crm-and-cpq/docusign"
+            "docs/integrations/crm-and-cpq/docusign",
+            "docs/integrations/crm-and-cpq/hubspot",
+            "docs/integrations/crm-and-cpq/salesforce"
           ]
         },
         {
           "group": "Communications",
           "pages": [
-            "docs/integrations/communications/slack",
             "docs/integrations/communications/ses",
+            "docs/integrations/communications/slack",
             "docs/integrations/communications/smtp"
           ]
         },
